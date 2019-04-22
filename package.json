@@ -1,0 +1,16 @@
+{
+  "name": "technical-assignment",
+  "version": "1.0.0",
+  "description": "Technical Assignment for Cloudability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cormick Hnilicka",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "uuid": "^3.3.2"
+  }
+}
