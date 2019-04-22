@@ -1,6 +1,6 @@
 /**
 * Model file represents the data layer of the API. This handles the reading/writing
-* to the database as well as any updates/deletes. 
+* to the database as well as any updates/deletes.
 */
 
 
@@ -74,7 +74,7 @@ var Dog = function(database){
             }
             let data = JSON.stringify(dogs);
             fs.writeFileSync(__dirname + "/../"+database, data);
-            cb(null, dogs);
+            cb(null, dogToUpdate);
         } else {
             cb(err)
         }

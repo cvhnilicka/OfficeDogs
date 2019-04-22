@@ -20,5 +20,5 @@ http://localhost:8080/api/dogs
     - post : add a new dog  
 http://localhost:8080/api/dogs/:id  
     - get : get dog by id  
-    - put : update dog by id  
+    - put : update dog by id. Returns the updated dog if successful
     - delete : delete dog by id  
